@@ -8,13 +8,11 @@ This project was practice using the form HTML element and integrating it into a 
 
 10/13/2024:
 
-This project is currently in development. Site layout is being created with limited to no functionality. 
+This project is currently in development. HTML layout created with limited functionality, but styling is being added. 
 
-## Project Screen Shot(s)  
+## Project GIF
 
-[ PRETEND SCREEN SHOT IS HERE ]
-
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
+![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
 
 ## Installation and Setup Instructions
 
