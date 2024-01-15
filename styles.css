@@ -2,5 +2,85 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Verdana';
+}
+
+@font-face {
+    font-family: 'Norse';
+    src: url(Norse-Bold.otf);
+}
+
+#page-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Left Side of Screen */
+
+img {
+    object-fit: contain;
+    height: 100%;
+}
+
+#logo-text {
+    color: white;
+    font-size: 7em;
+    font-family: 'Norse';
+}
+
+#left-side {
+    flex-grow: 1;
+    background-image: url(https://images.unsplash.com/photo-1704601312882-b294a46e0aca?q=80&w=2859&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo-banner {
+    margin-top: 25vh;
+    height: 17vh;
+    background-color: black;
+    opacity: 70%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    gap: 30px;
+}
+
+#left-side > footer {
+    margin-top: auto;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+footer > a {
+    color: white;
+}
+
+/* Right Side of Screen */
+
+#right-side {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2.5;
+    max-width: 63vw;
+}
+
+#right-side > h3 {
+    padding: 15vh 20vh 7vh 7vh;
+    font-size: 2em;
+}
+
+#signup-form {
+    display: flex;
+    flex-direction: column;
+    padding: 7vh;
+    box-shadow: 0px 7px 5px lightgrey, 0px -1px 5px lightgrey;
 }
